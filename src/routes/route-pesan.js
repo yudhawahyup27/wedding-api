@@ -7,7 +7,7 @@ router.get('/', pesan.AllPesan);
 
 // Menambah data pesan
 
-// router.post('/pesan/add', pesan.addPesan);
+router.post('/', pesan.AddPesan);
 
 module.exports = router ;
 
